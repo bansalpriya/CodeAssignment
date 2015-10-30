@@ -1,0 +1,16 @@
+<section>
+<div class="UploaderWrapper">
+	<section>
+    <input id="FileUploader" type="file" file-uploader />
+    <input type="text" ng-model="label" ng-show="url.length > 0" placeholder="Enter Label"/>
+    </section>
+    <section class="Preview">
+        <img id="PreviewImage" src="{{::imgUrl}}"/>
+        <p id="ImgLabel">{{label}}</p>
+    </section>
+    <section ng-if="url.length > 0" ng-click="handleActiion($event)">
+        <button id="UploadBtn" type="submit">Upload</button>
+        <button id="ResetBtn" type="reset">Reset</button>
+    <section>
+</div>
+</section>

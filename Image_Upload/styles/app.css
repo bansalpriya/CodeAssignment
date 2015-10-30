@@ -1,0 +1,13 @@
+body{ margin: 0px; padding: :0px; font-size: 100%; }
+
+.NavWrapper{ text-align: center; padding: 30px 0px; background-color: greenyellow; }
+.NavWrapper div{width:200px; margin:0px auto;}
+.TabLink{ font-size: 20px; font-weight: bold; text-decoration: none; }
+.ImageContaniner{ position: relative; text-align: center; margin-top: 20px; }
+.ImageContaniner p { width:100%; margin:0px; text-align:center;}
+.ImageContaniner img{ max-width:300px; }
+.UploaderWrapper{ width:80%; max-width: :960px; margin:0px auto; }
+.UploaderWrapper section{ text-align:center; margin-top:50px; }
+#Gallery, #UploadBtn{ margin-right: 20px; }
+#Upload, #ResetBtn{ margin-left: 20px; }
+#PreviewImage{ max-width: 500px; }
